@@ -3,6 +3,8 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/day01" />
+    <file type="web" url="file://$PROJECT_DIR$/day01ws" />
+    <file type="web" url="file://$PROJECT_DIR$/day01wsw" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
