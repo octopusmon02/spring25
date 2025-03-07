@@ -13,18 +13,22 @@
 
         td, th {
             border: 1px solid #dddddd;
-            text-align: left;
+            text-align: center;
             padding: 8px;
         }
 
         tr:nth-child(even) {
             background-color: #dddddd;
         }
+        #table > tbody > tr > td> img {
+            width: 80px;
+            height: 100px;
+        }
     </style>
 </head>
 <body>
 <h1>Next Page</h1>
-<table>
+<table id="item_table">
     <thead>
     <tr>
         <th>Image</th>
@@ -37,7 +41,7 @@
     <tbody>
     <c:forEach var="it" items="${myitems}">
         <tr>
-            <td>${it.imgName}</td>
+            <td><img src="/img/${it.imgName}"></td>
             <td>${it.id}</td>
             <td>${it.name}</td>
             <td>${it.price}</td>
