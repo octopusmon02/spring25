@@ -10,7 +10,7 @@ server:
 spring:
   mvc:
     view:
-      prefix: /WEB-INF/views/
+      prefix: /views/
       suffix: .jsp
 
 # 3. Log Level

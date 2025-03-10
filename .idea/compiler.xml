@@ -17,6 +17,8 @@
       <module name="day01ws.main" target="17" />
       <module name="day01ws.test" target="17" />
       <module name="day2ws4" target="17" />
+      <module name="day2ws4.main" target="17" />
+      <module name="day2ws4.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
